@@ -1,3 +1,5 @@
+import 'package:ticket_app/base/res/media.dart';
+
 List<Map<String, dynamic>> ticketList = [
   {
     'from': {
@@ -139,4 +141,86 @@ List<Map<String, dynamic>> ticketList = [
     'departure_time': "09:15 AM",
     "number": 156
   }
+];
+
+
+List<Map<String, dynamic>> hotelList = [
+  {
+    'image': "hotel_room.png",
+    'place': 'Open Space',
+    'destination': 'London',
+    'price': 25
+  },
+  {
+    'image': "city_view.png",
+    'place': 'Global Will',
+    'destination': 'London',
+    'price': 40
+  },
+  {
+    'image': 'city_view_2.png',
+    'place': 'Tallest Building',
+    'destination': 'Dubai',
+    'price': 68
+  },
+  {
+    'image': 'four.png',
+    'place': 'Sunset Resort',
+    'destination': 'Maldives',
+    'price': 150
+  },
+  {
+    'image': 'five.png',
+    'place': 'City Lights',
+    'destination': 'New York',
+    'price': 90
+  },
+  {
+    'image': 'six.png',
+    'place': 'Mountain Retreat',
+    'destination': 'Switzerland',
+    'price': 120
+  },
+  {
+    'image': 'seven.png',
+    'place': 'Beachside Villa',
+    'destination': 'Bali',
+    'price': 80
+  },
+  {
+    'image': 'eight.png',
+    'place': 'Historic Inn',
+    'destination': 'Rome',
+    'price': 70
+  },
+  {
+    'image': 'nine.png',
+    'place': 'Urban Escape',
+    'destination': 'Tokyo',
+    'price': 85
+  },
+  {
+    'image': 'ten.png',
+    'place': 'Desert Oasis',
+    'destination': 'Marrakech',
+    'price': 55
+  },
+  {
+    'image': 'eleven.png',
+    'place': 'Rainforest Lodge',
+    'destination': 'Costa Rica',
+    'price': 110
+  },
+  {
+    'image': 'twelve.png',
+    'place': 'Lakeview Cabin',
+    'destination': 'Canada',
+    'price': 95
+  },
+  {
+    'image': 'thirteen.png',
+    'place': 'Safari Camp',
+    'destination': 'Kenya',
+    'price': 130
+  },
 ];
